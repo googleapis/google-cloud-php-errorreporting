@@ -6,7 +6,7 @@ use Google\Cloud\Logging\LoggingClient;
 use Google\Cloud\Logging\PsrLogger;
 
 /**
- * Static methods for bootstrapping Stackdriver Error Reporting.
+ * Static methods for bootstrapping Error Reporting.
  */
 class Bootstrap
 {
