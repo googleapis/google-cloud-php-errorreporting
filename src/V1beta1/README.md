@@ -1,4 +1,4 @@
-# Stackdriver Error Reporting V1beta1 generated client for PHP
+# Error Reporting V1beta1 generated client for PHP
 
 ### Sample
 

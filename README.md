@@ -1,6 +1,6 @@
-# Stackdriver Error Reporting for PHP
+# Error Reporting for PHP
 
-> Idiomatic PHP client for [Stackdriver Error Reporting](https://cloud.google.com/error-reporting/).
+> Idiomatic PHP client for [Error Reporting](https://cloud.google.com/error-reporting/).
 
 [![Latest Stable Version](https://poser.pugx.org/google/cloud-error-reporting/v/stable)](https://packagist.org/packages/google/cloud-error-reporting) [![Packagist](https://img.shields.io/packagist/dm/google/cloud-error-reporting.svg)](https://packagist.org/packages/google/cloud-error-reporting)
 
@@ -10,7 +10,7 @@
 support requests, bug reports, or development contributions should be directed to
 that project.
 
-Stackdriver Error Reporting counts, analyzes and aggregates the crashes in your running cloud services.
+Error Reporting counts, analyzes and aggregates the crashes in your running cloud services.
 
 ### Installation
 
@@ -38,7 +38,7 @@ on authenticating your client. Once authenticated, you'll be ready to start maki
 
 ### Sample
 
-The Stackdriver Error Reporting client provides APIs allowing you to easily configure your application to send errors and exceptions automatically to Stackdriver, or to manually report and manage errors and statistics.
+The Error Reporting client provides APIs allowing you to easily configure your application to send errors and exceptions automatically to Google Cloud, or to manually report and manage errors and statistics.
 
 #### Reporting errors from your application:
 
@@ -60,7 +60,7 @@ $psrLogger = $logging->psrLogger('error-log', [
 ]);
 
 // Register the logger as a PHP exception and error handler.
-// This will begin logging application exceptions and errors to Stackdriver.
+// This will begin logging application exceptions and errors to Google Cloud.
 Bootstrap::init($psrLogger);
 ```
 
